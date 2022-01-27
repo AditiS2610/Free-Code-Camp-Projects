@@ -1,0 +1,395 @@
+<nav id="navbar">
+  <header>Python Programming</header>
+  <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#Why_to_learn_C_programming?"
+        >Why to Learn Python Programming?</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#Facts_about_Python">Facts about Python</a>
+    </li>
+    <li><a class="nav-link" href="#Hello_world_in_Python">Hello world in Python</a></li>
+    <li><a class="nav-link" href="#Variables_in_Python">Variables in Python</a></li>
+    <li>
+      <a class="nav-link" href="#Declaring_variables_in_Python">Declaring variables in Python</a>
+    </li>
+    <li><a class="nav-link" href="#Data_Types_in_Python">Data Types in Python</a></li>
+    <li><a class="nav-link" href="#Constants_in_Python">Constants in Python</a></li>
+    <li><a class="nav-link" href="#Operators_in_Python">Operator in Python</a></li>
+    <li><a class="nav-link" href="#Loops_in_Python">Loops in Python</a></li>
+    <li>
+      <a class="nav-link" href="#Functions_in_Python">Function in Python</a>
+    </li>
+    <li><a class="nav-link" href="#Array_in_Python">Array in Python</a></li>
+    
+    <li><a class="nav-link" href="#String_in_Python">String in Python</a></li>
+    <li><a class="nav-link" href="#File Handling_in_Python">File Handling in Python</a></li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+     <header>Introduction</header>
+    <article>
+      <p>
+       Python is developed by Guido van Rossum. Guido van Rossum started implementing Python in 1989. Python is a very simple programming language so even if you are new to programming, you can learn python without facing any issues.
+
+Interesting fact: Python is named after the comedy television show Monty Python’s Flying Circus. It is not named after the Python snake.
+      </p>
+      </article>
+  </section>
+  
+  <section class="main-section" id="Why_to_learn_Python_programming?">
+    <header>Why to Learn Python Programming?</header>
+    <article>
+      <p>
+ <ul>
+   <li> Python can be used on a server to create web applications.</li>
+   <li>Python can be used alongside software to create workflows.</li>
+   <li>Python can connect to database systems. It can also read and modify files.</li>
+     <li> Python can be used to handle big data and perform complex mathematics.</li>
+   <li> Python can be used for rapid prototyping, or for production-ready software development.</li>
+      </ul>
+      
+       <section class="main-section" id="Facts_about_Python">
+    <header>Facts about Python</header>
+    <article>
+      <p>
+  <ul>
+    <li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</li>
+    <li>Python has a simple syntax similar to the English language.</li>
+<li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li>
+<li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li>
+    <li>Python can be treated in a procedural way, an object-orientated way or a functional way.</li>
+<li>The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular.</li>
+<li>In this tutorial Python will be written in a text editor. It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are particularly useful when managing larger collections of Python files.</li>
+      </ul></p>
+    </article>
+  </section>
+    
+    <section class="main-section" id="Hello_world_in_Python">
+    <header>Hello world in Python</header>
+    <article>
+      <p>
+      Python Quickstart</br>
+      <code
+        >print("Hello, World!")</br></br>
+      </code>
+</p>
+</article>
+  </section>
+<section class="main-section" id="Variables_in_Python">
+    <header>Variables in Python</header>
+    <p>
+      Variables are containers for storing data values.
+
+Unlike other programming languages, Python has no command for declaring a variable.
+
+A variable is created the moment you first assign a value to it.</p>
+
+    <ul>
+      <li>int: The most natural size of integer for the machine.</li>
+      <li>char: Typically a single octet(one byte). It is an integer type.</li>
+      <li>float: A single-precision floating point value.</li>
+     </section>
+  <section class="main-section" id="Declaring_variables_in_Python">
+    <header>Declaring variables in Python</header>
+    <article>
+      <p>
+      A variable declaration provides assurance to the compiler that there exists a variable with the given type and name so that the compiler can proceed for further compilation without requiring the complete detail about the variable. A variable definition has its meaning at the time of compilation only, the compiler needs actual variable definition at the time of linking the program.</p>
+<p>
+A variable declaration is useful when you are using multiple files and you define your variable in one of the files which will be available at the time of linking of the program. You will use the keyword extern to declare a variable at any place. Though you can declare a variable multiple times in your Python program, it can be defined only once in a file, a function, or a block of code.</p>
+     Variables are containers for storing data values.
+
+Unlike other programming languages, Python has no command for declaring a variable.
+
+A variable is created the moment you first assign a value to it.
+   </br>   <code>
+     x = 5
+    <br>  y = "John"</br>
+  print(x)
+  <br>  print(y)</br>
+      </code>
+   </article>
+  </section>
+  <section class="main-section" id="Data_Types_in_C">
+    <header>Data Types in Python</header>
+    <article>
+      <p>
+       Data types are the classification or categorization of data items. Data types represent a kind of value which determines what operations can be performed on that data. Numeric, non-numeric and Boolean (true/false) data are the most used data types. However, each programming language has its own classification largely reflecting its programming philosophy.
+
+Python has the following standard or built-in data types: −</p>
+      <ul>
+      <li> Numeric:
+A numeric value is any representation of data which has a numeric value. Python identifies three types of numbers:</li>
+
+      <li>  Integer: Positive or negative whole numbers (without a fractional part)</li>
+<li>Float: Any real number with a floating point representation in which a fractional component is denoted by a decimal symbol or scientific notation</li>
+<li>Complex number: A number with a real and imaginary component represented as x+yj. x and y are floats and j is -1(square root of -1 called an imaginary number)</li>
+
+<li>Boolean:
+Data with one of two built-in values True or False. Notice that 'T' and 'F' are capital. true and false are not valid booleans and Python will throw an error for them.</li>
+
+<li>Sequence Type:
+A sequence is an ordered collection of similar or different data types. Python has the following built-in sequence data types:</li>
+
+<li>String: A string value is a collection of one or more characters put in single, double or triple quotes.</li>
+<li>List : A list object is an ordered collection of one or more data items, not necessarily of the same type, put in square brackets.
+Tuple: A Tuple object is an ordered collection of one or more data items, not necessarily of the same type, put in parentheses.</li>
+<li>Dictionary
+A dictionary object is an unordered collection of data in a key:value pair form. A collection of such pairs is enclosed in curly brackets. For example: {1:"Steve", 2:"Bill", 3:"Ram", 4: "Farha"}</li>
+
+<li>type() function:
+Python has an in-built function type() to ascertain the data type of a certain value. For example, enter type(1234) in Python shell and it will return <class 'int'>, which means 1234 is an integer value. Try and verify the data type of different values in Python shell, as shown below.</li>
+
+
+         </article>
+  </section>
+    <section class="main-section" id="Constants_in_C">
+    <header>Constants in Python</header>
+    <article>
+      <p>
+        A constant is a type of variable whose value cannot be changed. It is helpful to think of constants as containers that hold information which cannot be changed later.
+
+You can think of constants as a bag to store some books which cannot be replaced once placed inside the bag.
+
+</p>
+<p>
+Constants are treated just like regular variables except that their values cannot be modified after their definition.
+      </p>    
+      </article>
+  </section>
+    <section class="main-section" id="Operators_in_Python">
+    <header>Operator in Python</header>
+    <article>
+      <p>
+     Operators are used to perform operations on variables and values.
+
+Python divides the operators in the following groups:
+      </p>
+      <ul>
+<li>Arithmetic Operators</li>
+<li>Relational Operators</li>
+<li>Logical Operators</li>
+<li>Bitwise Operators</li>
+<li>Assignment Operators</li>
+<li>Comparison operators</li>
+          </article>
+  </section>
+    <section class="main-section" id="Loops_in_Python">
+    <header>Loops in Python</header>
+    <article>
+      <p>
+        You may encounter situations, when a block of code needs to be executed several number of times. In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on.</p>
+<p>
+Programming languages provide various control structures that allow for more complicated execution paths.A loop statement allows us to execute a statement or group of statements multiple times.
+      </p>
+      Python programming language provides the following types of loops to handle looping requirements.
+      <ul>
+       <li> Looping Through a String: Even strings are iterable objects, they contain a sequence of characters:
+
+Example
+Loop through the letters in the word "banana":
+
+for x in "banana":<br>
+  print(x)
+
+        </li>
+<li>for loop: A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+
+This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
+
+With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</li>
+<li> Else in For Loop:
+The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
+
+Example
+Print all numbers from 0 to 5, and print a message when the loop has ended:<br>
+
+for x in range(6):<br>
+  print(x)<br>
+else:<br>
+  print("Finally finished!")</li>
+        <li>Nested Loops
+A nested loop is a loop inside a loop.
+
+The "inner loop" will be executed one time for each iteration of the "outer loop":
+
+Example
+Print each adjective for every fruit:<br>
+
+adj = ["red", "big", "tasty"]<br>
+fruits = ["apple", "banana", "cherry"]<br>
+
+for x in adj:<br>
+  for y in fruits:<br>
+    print(x, y)</li>
+        </article>
+  </section>
+    <section class="main-section" id="Functions_in_Python">
+    <header>Function in Python</header>
+    <article>
+      <p>
+        A function is a group of statements that together perform a task. A function is a block of code which only runs when it is called.
+
+You can pass data, known as parameters, into a function.
+
+A function can return data as a result</p>
+<p>
+You can divide up your code into separate functions. How you divide up your code among different functions is up to you, but logically the division is such that each function performs a specific task.
+      </p>
+      The general form of a function definition in Python programming language is as follows −</br>
+     Creating a Function
+In Python a function is defined using the def keyword:
+
+Example
+def my_function():
+  print("Hello from a function")
+<li>Calling a Function
+To call a function, use the function name followed by parenthesis:
+
+Example<br>
+      <code>
+def my_function():<br>
+        print("Hello from a function")<br>
+
+  my_function()</code></li>
+ <br>     
+<li>Arguments
+Information can be passed into functions as arguments.
+
+Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
+
+The following example has a function with one argument (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:<br>
+
+Example<br>
+  <code>
+def my_function(fname):<br>
+  print(fname + " Refsnes")<br>
+
+my_function("Emil")<br>
+my_function("Tobias")<br>
+    my_function("Linus")</code></li>
+      
+    </article>
+  </section>
+    <section class="main-section" id="Array_in_C">
+    <header>Array in Python</header>
+    <article>
+      <p>
+        Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.</p>
+<p>
+Instead of declaring individual variables, such as number0, number1, ..., and number99, you declare one array variable such as numbers and use numbers[0], numbers[1], and ..., numbers[99] to represent individual variables. A specific element in an array is accessed by an index.</p>
+<p>
+All arrays consist of contiguous memory locations. The lowest address corresponds to the first element and the highest address to the last element. For Example:</p>
+      <code>
+        type arrayName [ arraySize ];
+      </code>
+       </article>
+  </section>
+    <section class="main-section" id="String_in_Python">
+    <header>String in Python</header>
+    <article>
+      <p>
+        Strings are actually one-dimensional array of characters terminated by a null character '\0'. Thus a null-terminated string contains the characters that comprise the string followed by a null.</p>
+      <p>If you follow the rule of array initialization then you can write the above statement as follows −</p>
+      <ul>
+<li>String format()
+The format() method allows you to format selected parts of a string.
+
+Sometimes there are parts of a text that you do not control, maybe they come from a database, or user input?
+
+To control such values, add placeholders (curly brackets {}) in the text, and run the values through the format() method:<br>
+
+Example
+Add a placeholder where you want to display the price:<br>
+
+price = 49<br>
+txt = "The price is {} dollars"<br>
+  print(txt.format(price))</li>
+      <li>  Multiple Values:
+If you want to use more values, just add more values to the format() method:<br>
+
+print(txt.format(price, itemno, count))<br>
+And add more placeholders:<br>
+
+Example<br>
+        <code>
+quantity = 3<br>
+itemno = 567<br>
+price = 49<br>
+myorder = "I want {} pieces of item number {} for {:.2f} dollars."<br>
+        print(myorder.format(quantity, itemno, price)) 
+        </code></li>
+      <li>  Multiple Values: 
+If you want to use more values, just add more values to the format() method:<br>
+<code>
+print(txt.format(price, itemno, count))<br>
+        </code>
+And add more placeholders:<br>
+
+Example<br>
+        <code>
+quantity = 3<br>
+itemno = 567<br>
+price = 49<br>
+myorder = "I want {} pieces of item number {} for {:.2f} dollars."<br>
+        print(myorder.format(quantity, itemno, price)) 
+        </code></li>
+
+       
+      </ul>
+       </article>
+  </section>
+    <section class="main-section" id="File Handling_in_Python">
+    <header>File Handling in Python</header>
+    <article>
+      <p>
+        File handling is an important part of any web application.
+
+Python has several functions for creating, reading, updating, and deleting files.
+
+      </p>
+   <li>   File Handling:
+The key function for working with files in Python is the open() function.
+<br>
+The open() function takes two parameters; filename, and mode.
+<br>
+There are four different methods (modes) for opening a file:
+<br>
+"r" - Read - Default value. Opens a file for reading, error if the file does not exist
+<br>
+"a" - Append - Opens a file for appending, creates the file if it does not exist
+<br>
+"w" - Write - Opens a file for writing, creates the file if it does not exist
+<br>
+      "x" - Create - Creates the specified file, returns an error if the file exists</li>
+    <li>
+      Syntax:
+To open a file for reading it is enough to specify the name of the file:
+<br>
+f = open("demofile.txt")
+The code above is the same as:
+<br>
+f = open("demofile.txt", "rt")
+      <br>
+      Because "r" for read, and "t" for text are the default values, you do not need to specify them.</li>
+</article>
+    <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://www.w3schools.com/python/default.asp"
+            target="_blank"
+            >w3school</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
