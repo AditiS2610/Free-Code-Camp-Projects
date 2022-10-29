@@ -5,3 +5,7 @@
 ### Product Landing Page : https://codepen.io/aditi200/full/zYqEabv
 ### Technical Documentation Page : https://codepen.io/aditi200/full/zYqEabv
 ### Personal Portfolio Webpage : https://codepen.io/aditi200/full/VwarxBO
+
+# TechStack
+- HTML
+- Css
